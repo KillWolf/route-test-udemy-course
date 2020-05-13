@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+    
+}
+.App .Nav  {
+    display: flex;
+    justify-content: center;
+}
+
+.App .Nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.App .Nav a {
+    padding: 0 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.App .Nav a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.active {
+    font-weight: 700;
+};
